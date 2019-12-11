@@ -8,6 +8,12 @@ import java.io.File;
 
 public class exercice3 {
 	public static void main(String[] args) throws IOException {
+		//preambule
+		for(int i = 0; i < args.length;i++)
+		{
+			System.out.println(args);
+		}
+
 		BufferedReader reader = null;
 		String line;
 		HashMap<String, String> hm = new HashMap<>();
